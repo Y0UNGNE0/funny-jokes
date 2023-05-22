@@ -1,0 +1,3 @@
+ jokes.forEach(element => {
+
+//  });

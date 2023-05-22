@@ -1,0 +1,61 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #182527;
+
+}
+.badday
+{
+   font-size: 100px;
+   color: #ffffff;
+   font-family:VT323;
+   text-align: center;
+   margin-top: 30px;
+   margin-bottom: 40px;
+}
+.image-button {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  .image-button img {
+    width: 360px;
+    margin-left: 570px;
+    transition: transform 0.2s; /* Transition effect with duration */
+  }
+  
+  .image-button:hover img {
+    transform: scale(1.2); /* Scale up the image on hover */
+  }
+  
+  .image-button:active img {
+    transform: scale(0.8); /* Scale down the image when clicked */
+  }
+
+  
+.images 
+{   width: 20px;
+    display: flex;
+    margin: 2px;
+    justify-content: space-between 2px;
+
+}
+.images img
+{   
+    width: 390px;
+    display: flex;
+    justify-content: space-between 2px;
+    margin-bottom: 40px;
+}
+.output p
+{  font-size: 100px;
+    color: #ffffff;
+    font-family:VT323;
+    text-align: center;
+    margin-top: 20px;
+ 
+}
