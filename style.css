@@ -59,3 +59,22 @@
     margin-top: 20px;
  
 }
+@media only screen and (max-width: 600px) {
+  body {
+    
+  .image-button img {
+    width: 260px;
+    margin: auto;
+    margin-left: 85px;
+    transition: transform 0.2s; /* Transition effect with duration */
+  }
+  .output p
+{  font-size: 70px;
+    color: #ffffff;
+    font-family:VT323;
+    text-align: center;
+    margin-top: 20px;
+ 
+}
+  }
+}
