@@ -20,11 +20,13 @@
     background: none;
     padding: 0;
     cursor: pointer;
+    margin: auto;
+    display: flex;
   }
   
   .image-button img {
     width: 360px;
-    margin-left: 570px;
+    margin: auto;
     transition: transform 0.2s; /* Transition effect with duration */
   }
   
